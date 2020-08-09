@@ -44,7 +44,7 @@ async def _(event):
                 loa,
                 force_document=False,
                 allow_cache=False,
-                caption="`Audio File Medium Quality Successfully Uploaded By:`@uSe_DaRk_PrInCe",
+                caption="`Audio File Medium Quality Successfully Uploaded By:,@Ramvansclone",
                 reply_to=reply_to_id
             )
     await event.delete()
@@ -79,7 +79,7 @@ async def _(event):
                 loa,
                 force_document=False,
                 allow_cache=False,
-                caption="Audio File HQ Successfully Uploaded By:`@uSe_DaRk_PrInCe",
+                caption="Audio File HQ Successfully Uploaded By:`@Ramvansclone",
                 reply_to=reply_to_id
             )
     await event.delete()
@@ -123,7 +123,7 @@ async def _(event):
                 loa,
                 force_document=False,
                 allow_cache=False,
-                caption="`Video File Successfully Uploaded By:` @uSe_DaRk_PrInCe",
+                caption="`Video File Successfully Uploaded By:` @Ramvansclone",
                 supports_streaming=True,
                 reply_to=reply_to_id,
                 attributes=[DocumentAttributeVideo(
