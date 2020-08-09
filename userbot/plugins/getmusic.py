@@ -42,7 +42,7 @@ async def _(event):
     await borg.send_file(
                 event.chat_id,
                 loa,
-                force_document=True,
+                force_document=False,
                 allow_cache=False,
                 caption="`Audio File Medium Quality Successfully Uploaded By:`@uSe_DaRk_PrInCe",
                 reply_to=reply_to_id
@@ -77,7 +77,7 @@ async def _(event):
     await borg.send_file(
                 event.chat_id,
                 loa,
-                force_document=True,
+                force_document=False,
                 allow_cache=False,
                 caption="Audio File HQ Successfully Uploaded By:`@uSe_DaRk_PrInCe",
                 reply_to=reply_to_id
